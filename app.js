@@ -28,7 +28,7 @@ projects.forEach((project, index) => {
         </div>
     </div>
     </div>
-    `
+    `;
 });
 
 Container.innerHTML = projectHTML;

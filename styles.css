@@ -3,7 +3,6 @@ html, body {
 }
 .navigation-bar {
     background-color:  #182054;
-    box-shadow: black;
     padding-left: 1em;
 }
 
@@ -118,6 +117,11 @@ footer {
 }
 
 @media (min-width: 992px) {
+
+.me {
+    font-size: larger;
+    padding: 0 5rem;
+}
 
 .prog-container {
     padding: 1rem 0;
