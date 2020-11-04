@@ -7,7 +7,7 @@ const projects = [
     { name:"Wheel of Success", skills: ["html", "js"] , link:"https://luccianob.github.io/Techdegree-Project-6", code:"https://github.com/LuccianoB/Techdegree-Project-6"},
     { name:"Circles Demo", skills: ["html", "css", "scss"], link:"https://luccianob.github.io/Techdegree-project-4", code:"https://github.com/LuccianoB/Techdegree-project-4"},
     { name:"Form Example", skills: ["html", "css"], link:"https://luccianob.github.io/Techdegree-Project-3", code:"https://github.com/LuccianoB/Techdegree-Project-3"}    
-]  
+];  
 
 
 // programs //
@@ -18,7 +18,6 @@ projects.forEach((project, index) => {
     let name = project.name;
     let link = project.link;
     let code = project.code;
-    let skills = project.skills;
     
     projectHTML += `
     <div class="card " data-index="${index}" id="card${index}">
@@ -47,7 +46,7 @@ projects.forEach((project, index) => {
 
 //  Filter functions    //
 
-filterSelection("all")
+filterSelection("all");
 function filterSelection(c) {
     var x, i;
     x = document.getElementsByClassName("card");
