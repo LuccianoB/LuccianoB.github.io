@@ -46,6 +46,36 @@ footer {
     padding: 2rem 0 1rem 0;
 }
 
+.proj-filter {
+    padding: 1rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.dropdown-toggle {
+    background-color: blueviolet;
+    border-color: blueviolet;
+    width: 80%;
+}
+
+.filter-button-con {
+    display: none;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.filter-button {
+    color: white;
+    background: blueviolet;
+    border-color: blueviolet;
+    margin: 0 1rem;
+    min-width: 10%;
+}
+
 .prog-container {
     display: flex;
     justify-content: center;
@@ -56,6 +86,11 @@ footer {
 .card {
     width: 100%;
     margin-bottom: 1rem;
+    display: none;
+}
+
+.show {
+    display: flex;
 }
 
 footer {
@@ -79,8 +114,11 @@ footer {
 
 @media (min-width: 768px) {
 
+.name {
+    font-size: 5rem;
+}
+
 .prog-container {
-    margin-top: 1rem;
     padding: 0 1rem;
 }
 
@@ -125,6 +163,14 @@ footer {
 
 .prog-container {
     padding: 1rem 0;
+}
+
+.dropdown {
+    display: none;
+}
+
+.filter-button-con {
+    display: flex;
 }
 
 .card {

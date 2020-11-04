@@ -23,7 +23,7 @@
             </ul>
         </div> <!--/Navigation-->
         <div class="jumbotron text-center text-white"> <!--Jumbotron-->
-            <h1 class="display-3 font-weight-bold">Lucciano Barberan</h1>
+            <h1 class="name display-4 font-weight-bold">Lucciano Barberan</h1>
             <p class="opening lead">Portfolio and Info</p>
         </div><!--/jumbotron-->
     </header>
@@ -34,7 +34,7 @@
         <p class="text-secondary me">Hello, my name is Lucciano Barberan. I am a front-end web developer, student and creator. 
           I have recently completed the Treehouse Techdegree course in Front-End Web Development. I am continuing to further my front end web devolpment skills as well. 
           Along side this, I am also profficent with other digital media programs such as Photoshop and Primiere. I have a passion for learning and creating, and am excited to keep doing so while helping other built an online presence.
-          When I'm not learning new ways to futher my skills I enjoy painting, reading about history, travelling and spending time with friends and family.</p>
+          When I'm not learning new ways to futher my skills I enjoy painting, reading about history, travelling and spending time with friends and family.      </p>
         <h2>Skills</h2>
         <hr>
         <ul class="skills">
@@ -50,7 +50,30 @@
         <div class="text-center">
           <h2 class="text-white">Projects</h2>
         </div>
-        <div class="prog-container mt-4">
+        <div class="proj-filter">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle btn-lg" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Skills
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <button class="dropdown-item" onclick="filterSelection('all')" type="button">ALL</button>
+              <div class="dropdown-divider"></div>
+              <button class="dropdown-item" onclick="filterSelection('html')" type="button">HTML</button>
+              <button class="dropdown-item" onclick="filterSelection('css')" type="button">CSS</button>
+              <button class="dropdown-item" onclick="filterSelection('scss')" type="button">SCSS</button>
+              <button class="dropdown-item" onclick="filterSelection('js')" type="button">JAVASCRIPT</button>
+            </div>
+          </div>
+          <div class="filter-button-con">
+            <button type="button" class="btn btn-lg filter-button btn-secondary" onclick="filterSelection('all')">All</button>
+            <button type="button" class="btn btn-lg filter-button btn-secondary" onclick="filterSelection('html')">HTML</button>
+            <button type="button" class="btn btn-lg filter-button btn-secondary" onclick="filterSelection('css')">CSS</button>
+            <button type="button" class="btn btn-lg filter-button btn-secondary" onclick="filterSelection('scss')">SCSS</button>
+            <button type="button" class="btn btn-lg filter-button btn-secondary" onclick="filterSelection('js')">JAVASCRIPT</button>
+          </div>
+        </div>
+        <div class="prog-container">
 
           <!--  Cards -->
 
